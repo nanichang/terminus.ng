@@ -6,8 +6,9 @@ use BotMan\BotMan\BotMan;
 use Illuminate\Http\Request;
 use App\Conversations\ChatBotConversation;
 
-class BotManController extends Controller
+class ChatController extends Controller
 {
+    
     /**
      * Place your BotMan logic here.
      */
@@ -21,7 +22,7 @@ class BotManController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function tinker()
+    public function chatView()
     {
         return view('chatbot');
     }

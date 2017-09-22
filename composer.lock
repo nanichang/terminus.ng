@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e09949c468229df511e1cc3c02285cbd",
+    "content-hash": "41b3ef317d248c9c0be9ed08ed651642",
     "packages": [
         {
             "name": "botman/botman",
@@ -72,6 +72,56 @@
                 "chatbot"
             ],
             "time": "2017-09-11T20:33:20+00:00"
+        },
+        {
+            "name": "botman/driver-facebook",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/botman/driver-facebook.git",
+                "reference": "7087eba4c7042a7dcf3479f88b54b7434be99b7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/botman/driver-facebook/zipball/7087eba4c7042a7dcf3479f88b54b7434be99b7d",
+                "reference": "7087eba4c7042a7dcf3479f88b54b7434be99b7d",
+                "shasum": ""
+            },
+            "require": {
+                "botman/botman": "~2.0",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BotMan\\Drivers\\Facebook\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Pociot",
+                    "email": "m.pociot@gmail.com"
+                }
+            ],
+            "description": "Facebook Messenger driver for BotMan",
+            "homepage": "http://github.com/botman/driver-facebook",
+            "keywords": [
+                "Botman",
+                "Messenger",
+                "bot",
+                "facebook",
+                "facebook messenger"
+            ],
+            "time": "2017-09-19T20:09:49+00:00"
         },
         {
             "name": "botman/driver-web",

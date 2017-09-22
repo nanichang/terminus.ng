@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>BotMan Studio</title>
+    <title>tChat</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
@@ -59,11 +59,8 @@
         </div>
 
         <div class="links">
-            <a href="/botman/tinker">Tinker</a>
-            <a href="https://botman.io/docs" target="_blank">Documentation</a>
-            <a href="https://twitter.com/botman_io" target="_blank">News</a>
-            <a href="https://rauchg-slackin-jtdkltstsj.now.sh/" target="_blank">Slack</a>
-            <a href="https://github.com/botman/botman" target="_blank">GitHub</a>
+            <a href="/chat">Get Started</a>
+            <!-- <a href="https://botman.io/docs" target="_blank">Documentation</a> -->
         </div>
     </div>
 </div>
